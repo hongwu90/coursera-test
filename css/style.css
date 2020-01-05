@@ -1,0 +1,89 @@
+body {
+	font-size: 16px;
+	color: black;
+	background-color: #b3ffe4;
+	font-family: "Helvetica", sans-serif;
+}
+
+/**Header NAV**/
+#coolnav {
+	background-color: #399621;
+}
+
+.navbar-header h1 {
+	color: #fff;
+	font-size: 2em;
+	margin: 0px auto 10px;
+	font-weight: bold;
+}
+
+.navbar-header a:hover, .navbar-header a:focus {
+	text-decoration: none;
+}
+
+.text-center {
+	margin-top: 30px;
+}
+
+.navbar-header button.navbar-toggler, .navbar-header .nav-item {
+	border: 1px solid #fff;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a {
+	color: #fff;
+	text-align: center;
+}
+
+#nav-list a:hover, #navlist a:active {
+	background: red;
+	text-decoration: none;
+}
+
+#nav-list a span {
+	font-size: 1.5em;
+}
+
+.navbar-toggler {
+	position: relative;
+	float: right;
+}
+
+#toggler_white {
+	color: #fff;
+	border-color: #fff;
+}
+
+/**End Header NAV**/
+
+.main-section {
+	border: 1px solid #fff;
+	background-color: #399621;
+	padding: 10px 10px 10px 10px;
+	color: #fff;
+	box-shadow: 10px 10px 20px black; 
+}
+
+.main-section>p {
+	text-align: justify;
+}
+
+div>h2 {
+	font-size: 3em;
+}
+
+section>h3 {
+	font-size: 2em;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+/**Media queries**/
+@media (min-width: 768px) {
+	.navbar-toggler, #nav-list {
+		display: none;
+	}
+}
